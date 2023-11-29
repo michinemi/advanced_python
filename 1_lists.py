@@ -12,10 +12,10 @@ test_list_2 = [10, 1, 5, 2, 8, 11, 9, 7, 6, 4, 3]
 # test_list.insert(0, 'blueberry')
 # print(test_list)
 
-# Remove and return element from a list
-# test_item = test_list.pop()
-# print(test_item)
-# print(test_list)
+# Remove and return last element from a list
+test_item = test_list.pop()
+print(test_item)
+print(test_list)
 
 # Remove specific element from a list
 # test_list.remove('blueberry')
@@ -72,5 +72,5 @@ test_list_2 = [10, 1, 5, 2, 8, 11, 9, 7, 6, 4, 3]
 # print(test_list)
 
 # List comprehension. Nice way to create a new list from an existing list with 1 line of code
-list_comp = [item*item for item in test_list_2]
-print(list_comp)
+# list_comp = [item*item for item in test_list_2]
+# print(list_comp)
